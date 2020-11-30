@@ -1,3 +1,3 @@
 import barstring from "./bar"
 import foostring from "./foo"
-console.log(barstring, foostring)
+// console.log(barstring, foostring)
