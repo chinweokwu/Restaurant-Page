@@ -1,8 +1,8 @@
 class DisplayMenuPage {
-  static menupage(content) {
-    const cardgroup = document.createElement('div');
-    cardgroup.setAttribute('class', 'card-group');
-    cardgroup.innerHTML = `
+    static menupage(content) {
+        const cardgroup = document.createElement('div');
+        cardgroup.setAttribute('class','card-group');
+        cardgroup.innerHTML = `
         <div class="card">
           <div class="card-body">
             <img src="../assets/food1.jpg" alt="">
@@ -52,7 +52,7 @@ class DisplayMenuPage {
           </div>
         </div>
         `
-    content.appendChild(cardgroup);
-  };
+        content.appendChild(cardgroup);
+    }
 }
-export { DisplayMenuPage };
+export{DisplayMenuPage};
