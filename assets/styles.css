@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./rest5.jpg) no-repeat center center fixed;
   background-size: cover;
   font-family: sans-serif;
@@ -116,6 +117,7 @@ h4 {
   height: 180px;
   margin-top: 10px;
 }
+
 .card-p {
   color: rgb(194, 194, 197);
 }
@@ -172,6 +174,7 @@ h4 {
 .signupForm h2 {
   font-weight: 300;
 }
+
 .inputFields {
   margin: 15px 0;
   font-size: 16px;
