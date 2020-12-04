@@ -1,8 +1,8 @@
 /* eslint-disable  no-undef, no-plusplus, camelcase, no-restricted-syntax, import/no-cycle, import/prefer-default-export, no-plusplus, max-len */
 class DisplayMenuPage {
   static menupage(content) {
-    const cardgroup = document.createElement("div");
-    cardgroup.setAttribute("class", "card-group");
+    const cardgroup = document.createElement('div');
+    cardgroup.setAttribute('class', 'card-group');
     cardgroup.innerHTML = `
         <div class="card">
           <div class="card-body">
@@ -24,7 +24,13 @@ class DisplayMenuPage {
         </div>
         <div class="card">
           <div class="card-body">
-            <img src="../assets/food1.jpg" alt="">
+            <img src="../assets/food2.jpg" alt="">
+            <p class="card-p">Fresh salads</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <img src="../assets/food2.jpg" alt="">
             <p class="card-p">Fresh salads</p>
           </div>
         </div>
@@ -36,13 +42,7 @@ class DisplayMenuPage {
         </div>
         <div class="card">
           <div class="card-body">
-            <img src="../assets/food1.jpg" alt="">
-            <p class="card-p">Fresh salads</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <img src="../assets/food1.jpg" alt="">
+            <img src="../assets/food2.jpg" alt="">
             <p class="card-p">Fresh salads</p>
           </div>
         </div>

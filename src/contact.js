@@ -2,7 +2,7 @@
 class DisplayContactPage {
   static contactpage(content) {
     const signupSection = document.createElement('div');
-    signupSection.setAttribute('class', 'signupSection')
+    signupSection.setAttribute('class', 'signupSection');
     const info = document.createElement('div');
     info.setAttribute('class', 'info');
     const infoh2 = document.createElement('h2');
@@ -42,8 +42,8 @@ class DisplayContactPage {
     textarea.setAttribute('cols', '30');
     textarea.setAttribute('rows', '5');
     textarea.setAttribute('class', 'textFields');
-    textarea.setAttribute('placeholder', 'Write Message')
-    formli3.appendChild(textarea)
+    textarea.setAttribute('placeholder', 'Write Message');
+    formli3.appendChild(textarea);
 
     formul.append(formli1, formli2, formli3);
 

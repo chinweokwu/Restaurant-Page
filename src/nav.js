@@ -1,10 +1,8 @@
 /* eslint-disable  no-undef, no-plusplus, camelcase, no-restricted-syntax, import/no-cycle, import/prefer-default-export, no-plusplus, max-len */
 class Navbar {
   static createNav(header) {
-
     const nav = document.createElement('nav');
     const ul = document.createElement('ul');
-
     const link1 = document.createElement('li');
     const anchor1 = document.createElement('a');
     anchor1.setAttribute('href', '#home');
@@ -29,9 +27,7 @@ class Navbar {
     ul.append(link1, link2, link3);
     nav.appendChild(ul);
     header.appendChild(nav);
-
-
   }
 }
 
-export { Navbar }
+export { Navbar };

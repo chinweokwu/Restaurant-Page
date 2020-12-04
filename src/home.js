@@ -2,7 +2,7 @@
 class DisplayHomePage {
   static homepage(content) {
     const showcase = document.createElement('div');
-    showcase.setAttribute('class', "showcase");
+    showcase.setAttribute('class', 'showcase');
 
     const container = document.createElement('div');
     container.setAttribute('class', 'container');
@@ -40,7 +40,7 @@ class DisplayHomePage {
     snackh4.innerHTML = 'Snacks';
 
     const snackp = document.createElement('p');
-    snackp.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis ab'
+    snackp.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis ab';
 
     snack.append(snackimg, snackh4, snackp);
 
